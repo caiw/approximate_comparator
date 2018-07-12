@@ -1,4 +1,4 @@
-from insignificant_digit_cutter import cut_insignificant_digits_recursively
+from .insignificant_digit_cutter import cut_insignificant_digits_recursively
 
 def is_almost_equal(first, second, places=7):
     '''returns False if first and second aren't equal up to a desired precision.
